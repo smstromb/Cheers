@@ -9,8 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "CheersAppDelegate.h"
 
-@interface CheersAppDelegate_iPhone : CheersAppDelegate {
+@interface CheersAppDelegate_iPhone : CheersAppDelegate <UINavigationControllerDelegate> {
     
 }
+
+@property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
+
 
 @end

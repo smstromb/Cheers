@@ -26,6 +26,16 @@
 		547B638D13D2801A0012DBFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 547B638B13D2801A0012DBFE /* InfoPlist.strings */; };
 		547B639013D2801B0012DBFE /* CheersTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 547B638F13D2801B0012DBFE /* CheersTests.h */; };
 		547B639213D2801B0012DBFE /* CheersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 547B639113D2801B0012DBFE /* CheersTests.m */; };
+		54C2402113D2809C007CA7AF /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C2401D13D2809C007CA7AF /* background.png */; };
+		54C2402213D2809C007CA7AF /* logo_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C2401E13D2809C007CA7AF /* logo_small.png */; };
+		54C2407613D28585007CA7AF /* MainMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C2407413D28585007CA7AF /* MainMenuController.m */; };
+		54C2407713D28585007CA7AF /* MainMenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54C2407513D28585007CA7AF /* MainMenuController.xib */; };
+		54C2409213D292E2007CA7AF /* beer_button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C2408C13D292E2007CA7AF /* beer_button_up.png */; };
+		54C2409313D292E2007CA7AF /* favorites_button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C2408D13D292E2007CA7AF /* favorites_button_up.png */; };
+		54C2409413D292E2007CA7AF /* liquor_button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C2408E13D292E2007CA7AF /* liquor_button_up.png */; };
+		54C2409513D292E2007CA7AF /* MoreInfo_button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C2408F13D292E2007CA7AF /* MoreInfo_button_up.png */; };
+		54C2409613D292E2007CA7AF /* wine_button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C2409013D292E2007CA7AF /* wine_button_up.png */; };
+		54C2409713D292E2007CA7AF /* wishlist_button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C2409113D292E2007CA7AF /* wishlist_button_up.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,25 +54,36 @@
 		547B635913D2801A0012DBFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		547B635B13D2801A0012DBFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		547B635D13D2801A0012DBFE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		547B636113D2801A0012DBFE /* Cheers-Info.plist */ = {isa = PBXFileReference; path = "Cheers-Info.plist"; sourceTree = "<group>"; };
+		547B636113D2801A0012DBFE /* Cheers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cheers-Info.plist"; sourceTree = "<group>"; };
 		547B636313D2801A0012DBFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		547B636513D2801A0012DBFE /* Cheers-Prefix.pch */ = {isa = PBXFileReference; path = "Cheers-Prefix.pch"; sourceTree = "<group>"; };
+		547B636513D2801A0012DBFE /* Cheers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cheers-Prefix.pch"; sourceTree = "<group>"; };
 		547B636613D2801A0012DBFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		547B636813D2801A0012DBFE /* CheersAppDelegate.h */ = {isa = PBXFileReference; path = CheersAppDelegate.h; sourceTree = "<group>"; };
+		547B636813D2801A0012DBFE /* CheersAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheersAppDelegate.h; sourceTree = "<group>"; };
 		547B636913D2801A0012DBFE /* CheersAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheersAppDelegate.m; sourceTree = "<group>"; };
 		547B636C13D2801A0012DBFE /* Cheers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cheers.xcdatamodel; sourceTree = "<group>"; };
-		547B636F13D2801A0012DBFE /* CheersAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = CheersAppDelegate_iPhone.h; path = iPhone/CheersAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		547B636F13D2801A0012DBFE /* CheersAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CheersAppDelegate_iPhone.h; path = iPhone/CheersAppDelegate_iPhone.h; sourceTree = "<group>"; };
 		547B637013D2801A0012DBFE /* CheersAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CheersAppDelegate_iPhone.m; path = iPhone/CheersAppDelegate_iPhone.m; sourceTree = "<group>"; };
 		547B637313D2801A0012DBFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		547B637613D2801A0012DBFE /* CheersAppDelegate_iPad.h */ = {isa = PBXFileReference; name = CheersAppDelegate_iPad.h; path = iPad/CheersAppDelegate_iPad.h; sourceTree = "<group>"; };
+		547B637613D2801A0012DBFE /* CheersAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CheersAppDelegate_iPad.h; path = iPad/CheersAppDelegate_iPad.h; sourceTree = "<group>"; };
 		547B637713D2801A0012DBFE /* CheersAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CheersAppDelegate_iPad.m; path = iPad/CheersAppDelegate_iPad.m; sourceTree = "<group>"; };
 		547B637A13D2801A0012DBFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
 		547B638113D2801A0012DBFE /* CheersTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheersTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		547B638A13D2801A0012DBFE /* CheersTests-Info.plist */ = {isa = PBXFileReference; path = "CheersTests-Info.plist"; sourceTree = "<group>"; };
+		547B638A13D2801A0012DBFE /* CheersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheersTests-Info.plist"; sourceTree = "<group>"; };
 		547B638C13D2801A0012DBFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		547B638E13D2801A0012DBFE /* CheersTests-Prefix.pch */ = {isa = PBXFileReference; path = "CheersTests-Prefix.pch"; sourceTree = "<group>"; };
+		547B638E13D2801A0012DBFE /* CheersTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CheersTests-Prefix.pch"; sourceTree = "<group>"; };
 		547B638F13D2801B0012DBFE /* CheersTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheersTests.h; sourceTree = "<group>"; };
 		547B639113D2801B0012DBFE /* CheersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheersTests.m; sourceTree = "<group>"; };
+		54C2401D13D2809C007CA7AF /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		54C2401E13D2809C007CA7AF /* logo_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_small.png; sourceTree = "<group>"; };
+		54C2407313D28585007CA7AF /* MainMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuController.h; sourceTree = "<group>"; };
+		54C2407413D28585007CA7AF /* MainMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuController.m; sourceTree = "<group>"; };
+		54C2407513D28585007CA7AF /* MainMenuController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenuController.xib; sourceTree = "<group>"; };
+		54C2408C13D292E2007CA7AF /* beer_button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beer_button_up.png; sourceTree = "<group>"; };
+		54C2408D13D292E2007CA7AF /* favorites_button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorites_button_up.png; sourceTree = "<group>"; };
+		54C2408E13D292E2007CA7AF /* liquor_button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = liquor_button_up.png; sourceTree = "<group>"; };
+		54C2408F13D292E2007CA7AF /* MoreInfo_button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MoreInfo_button_up.png; sourceTree = "<group>"; };
+		54C2409013D292E2007CA7AF /* wine_button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wine_button_up.png; sourceTree = "<group>"; };
+		54C2409113D292E2007CA7AF /* wishlist_button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wishlist_button_up.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +115,7 @@
 		547B634813D2801A0012DBFE = {
 			isa = PBXGroup;
 			children = (
+				54C2401B13D2809C007CA7AF /* UI_iPhone */,
 				547B635F13D2801A0012DBFE /* Cheers */,
 				547B638813D2801A0012DBFE /* CheersTests */,
 				547B635613D2801A0012DBFE /* Frameworks */,
@@ -151,6 +173,9 @@
 				547B636F13D2801A0012DBFE /* CheersAppDelegate_iPhone.h */,
 				547B637013D2801A0012DBFE /* CheersAppDelegate_iPhone.m */,
 				547B637213D2801A0012DBFE /* MainWindow_iPhone.xib */,
+				54C2407313D28585007CA7AF /* MainMenuController.h */,
+				54C2407413D28585007CA7AF /* MainMenuController.m */,
+				54C2407513D28585007CA7AF /* MainMenuController.xib */,
 			);
 			name = iPhone;
 			sourceTree = "<group>";
@@ -183,6 +208,38 @@
 				547B638E13D2801A0012DBFE /* CheersTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54C2401B13D2809C007CA7AF /* UI_iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				54C2408B13D292E2007CA7AF /* mainMenu */,
+				54C2401C13D2809C007CA7AF /* common */,
+			);
+			name = UI_iPhone;
+			path = Cheers/UI_iPhone;
+			sourceTree = "<group>";
+		};
+		54C2401C13D2809C007CA7AF /* common */ = {
+			isa = PBXGroup;
+			children = (
+				54C2401D13D2809C007CA7AF /* background.png */,
+				54C2401E13D2809C007CA7AF /* logo_small.png */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		54C2408B13D292E2007CA7AF /* mainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				54C2408C13D292E2007CA7AF /* beer_button_up.png */,
+				54C2408D13D292E2007CA7AF /* favorites_button_up.png */,
+				54C2408E13D292E2007CA7AF /* liquor_button_up.png */,
+				54C2408F13D292E2007CA7AF /* MoreInfo_button_up.png */,
+				54C2409013D292E2007CA7AF /* wine_button_up.png */,
+				54C2409113D292E2007CA7AF /* wishlist_button_up.png */,
+			);
+			path = mainMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +312,15 @@
 				547B636413D2801A0012DBFE /* InfoPlist.strings in Resources */,
 				547B637413D2801A0012DBFE /* MainWindow_iPhone.xib in Resources */,
 				547B637B13D2801A0012DBFE /* MainWindow_iPad.xib in Resources */,
+				54C2402113D2809C007CA7AF /* background.png in Resources */,
+				54C2402213D2809C007CA7AF /* logo_small.png in Resources */,
+				54C2407713D28585007CA7AF /* MainMenuController.xib in Resources */,
+				54C2409213D292E2007CA7AF /* beer_button_up.png in Resources */,
+				54C2409313D292E2007CA7AF /* favorites_button_up.png in Resources */,
+				54C2409413D292E2007CA7AF /* liquor_button_up.png in Resources */,
+				54C2409513D292E2007CA7AF /* MoreInfo_button_up.png in Resources */,
+				54C2409613D292E2007CA7AF /* wine_button_up.png in Resources */,
+				54C2409713D292E2007CA7AF /* wishlist_button_up.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +361,7 @@
 				547B636D13D2801A0012DBFE /* Cheers.xcdatamodeld in Sources */,
 				547B637113D2801A0012DBFE /* CheersAppDelegate_iPhone.m in Sources */,
 				547B637813D2801A0012DBFE /* CheersAppDelegate_iPad.m in Sources */,
+				54C2407613D28585007CA7AF /* MainMenuController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +544,7 @@
 				547B639713D2801B0012DBFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		547B639813D2801B0012DBFE /* Build configuration list for PBXNativeTarget "CheersTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +553,7 @@
 				547B639A13D2801B0012DBFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
