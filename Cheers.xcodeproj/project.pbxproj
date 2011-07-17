@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		547B635813D2801A0012DBFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547B635713D2801A0012DBFE /* UIKit.framework */; };
+		547B635A13D2801A0012DBFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547B635913D2801A0012DBFE /* Foundation.framework */; };
+		547B635C13D2801A0012DBFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547B635B13D2801A0012DBFE /* CoreGraphics.framework */; };
+		547B635E13D2801A0012DBFE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547B635D13D2801A0012DBFE /* CoreData.framework */; };
+		547B636413D2801A0012DBFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 547B636213D2801A0012DBFE /* InfoPlist.strings */; };
+		547B636713D2801A0012DBFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 547B636613D2801A0012DBFE /* main.m */; };
+		547B636A13D2801A0012DBFE /* CheersAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 547B636913D2801A0012DBFE /* CheersAppDelegate.m */; };
+		547B636D13D2801A0012DBFE /* Cheers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 547B636B13D2801A0012DBFE /* Cheers.xcdatamodeld */; };
+		547B637113D2801A0012DBFE /* CheersAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 547B637013D2801A0012DBFE /* CheersAppDelegate_iPhone.m */; };
+		547B637413D2801A0012DBFE /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 547B637213D2801A0012DBFE /* MainWindow_iPhone.xib */; };
+		547B637813D2801A0012DBFE /* CheersAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 547B637713D2801A0012DBFE /* CheersAppDelegate_iPad.m */; };
+		547B637B13D2801A0012DBFE /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 547B637913D2801A0012DBFE /* MainWindow_iPad.xib */; };
+		547B638213D2801A0012DBFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547B635713D2801A0012DBFE /* UIKit.framework */; };
+		547B638313D2801A0012DBFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547B635913D2801A0012DBFE /* Foundation.framework */; };
+		547B638413D2801A0012DBFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547B635B13D2801A0012DBFE /* CoreGraphics.framework */; };
+		547B638513D2801A0012DBFE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547B635D13D2801A0012DBFE /* CoreData.framework */; };
+		547B638D13D2801A0012DBFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 547B638B13D2801A0012DBFE /* InfoPlist.strings */; };
+		547B639013D2801B0012DBFE /* CheersTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 547B638F13D2801B0012DBFE /* CheersTests.h */; };
+		547B639213D2801B0012DBFE /* CheersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 547B639113D2801B0012DBFE /* CheersTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		547B638613D2801A0012DBFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 547B634A13D2801A0012DBFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 547B635213D2801A0012DBFE;
+			remoteInfo = Cheers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		547B635313D2801A0012DBFE /* Cheers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cheers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		547B635713D2801A0012DBFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		547B635913D2801A0012DBFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		547B635B13D2801A0012DBFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		547B635D13D2801A0012DBFE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		547B636113D2801A0012DBFE /* Cheers-Info.plist */ = {isa = PBXFileReference; path = "Cheers-Info.plist"; sourceTree = "<group>"; };
+		547B636313D2801A0012DBFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		547B636513D2801A0012DBFE /* Cheers-Prefix.pch */ = {isa = PBXFileReference; path = "Cheers-Prefix.pch"; sourceTree = "<group>"; };
+		547B636613D2801A0012DBFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		547B636813D2801A0012DBFE /* CheersAppDelegate.h */ = {isa = PBXFileReference; path = CheersAppDelegate.h; sourceTree = "<group>"; };
+		547B636913D2801A0012DBFE /* CheersAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheersAppDelegate.m; sourceTree = "<group>"; };
+		547B636C13D2801A0012DBFE /* Cheers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cheers.xcdatamodel; sourceTree = "<group>"; };
+		547B636F13D2801A0012DBFE /* CheersAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = CheersAppDelegate_iPhone.h; path = iPhone/CheersAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		547B637013D2801A0012DBFE /* CheersAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CheersAppDelegate_iPhone.m; path = iPhone/CheersAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		547B637313D2801A0012DBFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		547B637613D2801A0012DBFE /* CheersAppDelegate_iPad.h */ = {isa = PBXFileReference; name = CheersAppDelegate_iPad.h; path = iPad/CheersAppDelegate_iPad.h; sourceTree = "<group>"; };
+		547B637713D2801A0012DBFE /* CheersAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CheersAppDelegate_iPad.m; path = iPad/CheersAppDelegate_iPad.m; sourceTree = "<group>"; };
+		547B637A13D2801A0012DBFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		547B638113D2801A0012DBFE /* CheersTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheersTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		547B638A13D2801A0012DBFE /* CheersTests-Info.plist */ = {isa = PBXFileReference; path = "CheersTests-Info.plist"; sourceTree = "<group>"; };
+		547B638C13D2801A0012DBFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		547B638E13D2801A0012DBFE /* CheersTests-Prefix.pch */ = {isa = PBXFileReference; path = "CheersTests-Prefix.pch"; sourceTree = "<group>"; };
+		547B638F13D2801B0012DBFE /* CheersTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheersTests.h; sourceTree = "<group>"; };
+		547B639113D2801B0012DBFE /* CheersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheersTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		547B635013D2801A0012DBFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547B635813D2801A0012DBFE /* UIKit.framework in Frameworks */,
+				547B635A13D2801A0012DBFE /* Foundation.framework in Frameworks */,
+				547B635C13D2801A0012DBFE /* CoreGraphics.framework in Frameworks */,
+				547B635E13D2801A0012DBFE /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547B637D13D2801A0012DBFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547B638213D2801A0012DBFE /* UIKit.framework in Frameworks */,
+				547B638313D2801A0012DBFE /* Foundation.framework in Frameworks */,
+				547B638413D2801A0012DBFE /* CoreGraphics.framework in Frameworks */,
+				547B638513D2801A0012DBFE /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		547B634813D2801A0012DBFE = {
+			isa = PBXGroup;
+			children = (
+				547B635F13D2801A0012DBFE /* Cheers */,
+				547B638813D2801A0012DBFE /* CheersTests */,
+				547B635613D2801A0012DBFE /* Frameworks */,
+				547B635413D2801A0012DBFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		547B635413D2801A0012DBFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				547B635313D2801A0012DBFE /* Cheers.app */,
+				547B638113D2801A0012DBFE /* CheersTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		547B635613D2801A0012DBFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				547B635713D2801A0012DBFE /* UIKit.framework */,
+				547B635913D2801A0012DBFE /* Foundation.framework */,
+				547B635B13D2801A0012DBFE /* CoreGraphics.framework */,
+				547B635D13D2801A0012DBFE /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		547B635F13D2801A0012DBFE /* Cheers */ = {
+			isa = PBXGroup;
+			children = (
+				547B636813D2801A0012DBFE /* CheersAppDelegate.h */,
+				547B636913D2801A0012DBFE /* CheersAppDelegate.m */,
+				547B636B13D2801A0012DBFE /* Cheers.xcdatamodeld */,
+				547B636E13D2801A0012DBFE /* iPhone */,
+				547B637513D2801A0012DBFE /* iPad */,
+				547B636013D2801A0012DBFE /* Supporting Files */,
+			);
+			path = Cheers;
+			sourceTree = "<group>";
+		};
+		547B636013D2801A0012DBFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				547B636113D2801A0012DBFE /* Cheers-Info.plist */,
+				547B636213D2801A0012DBFE /* InfoPlist.strings */,
+				547B636513D2801A0012DBFE /* Cheers-Prefix.pch */,
+				547B636613D2801A0012DBFE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		547B636E13D2801A0012DBFE /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				547B636F13D2801A0012DBFE /* CheersAppDelegate_iPhone.h */,
+				547B637013D2801A0012DBFE /* CheersAppDelegate_iPhone.m */,
+				547B637213D2801A0012DBFE /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		547B637513D2801A0012DBFE /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				547B637613D2801A0012DBFE /* CheersAppDelegate_iPad.h */,
+				547B637713D2801A0012DBFE /* CheersAppDelegate_iPad.m */,
+				547B637913D2801A0012DBFE /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		547B638813D2801A0012DBFE /* CheersTests */ = {
+			isa = PBXGroup;
+			children = (
+				547B638F13D2801B0012DBFE /* CheersTests.h */,
+				547B639113D2801B0012DBFE /* CheersTests.m */,
+				547B638913D2801A0012DBFE /* Supporting Files */,
+			);
+			path = CheersTests;
+			sourceTree = "<group>";
+		};
+		547B638913D2801A0012DBFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				547B638A13D2801A0012DBFE /* CheersTests-Info.plist */,
+				547B638B13D2801A0012DBFE /* InfoPlist.strings */,
+				547B638E13D2801A0012DBFE /* CheersTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		547B635213D2801A0012DBFE /* Cheers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547B639513D2801B0012DBFE /* Build configuration list for PBXNativeTarget "Cheers" */;
+			buildPhases = (
+				547B634F13D2801A0012DBFE /* Sources */,
+				547B635013D2801A0012DBFE /* Frameworks */,
+				547B635113D2801A0012DBFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cheers;
+			productName = Cheers;
+			productReference = 547B635313D2801A0012DBFE /* Cheers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		547B638013D2801A0012DBFE /* CheersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547B639813D2801B0012DBFE /* Build configuration list for PBXNativeTarget "CheersTests" */;
+			buildPhases = (
+				547B637C13D2801A0012DBFE /* Sources */,
+				547B637D13D2801A0012DBFE /* Frameworks */,
+				547B637E13D2801A0012DBFE /* Resources */,
+				547B637F13D2801A0012DBFE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				547B638713D2801A0012DBFE /* PBXTargetDependency */,
+			);
+			name = CheersTests;
+			productName = CheersTests;
+			productReference = 547B638113D2801A0012DBFE /* CheersTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		547B634A13D2801A0012DBFE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 547B634D13D2801A0012DBFE /* Build configuration list for PBXProject "Cheers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 547B634813D2801A0012DBFE;
+			productRefGroup = 547B635413D2801A0012DBFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				547B635213D2801A0012DBFE /* Cheers */,
+				547B638013D2801A0012DBFE /* CheersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		547B635113D2801A0012DBFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547B636413D2801A0012DBFE /* InfoPlist.strings in Resources */,
+				547B637413D2801A0012DBFE /* MainWindow_iPhone.xib in Resources */,
+				547B637B13D2801A0012DBFE /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547B637E13D2801A0012DBFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547B638D13D2801A0012DBFE /* InfoPlist.strings in Resources */,
+				547B639013D2801B0012DBFE /* CheersTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		547B637F13D2801A0012DBFE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		547B634F13D2801A0012DBFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547B636713D2801A0012DBFE /* main.m in Sources */,
+				547B636A13D2801A0012DBFE /* CheersAppDelegate.m in Sources */,
+				547B636D13D2801A0012DBFE /* Cheers.xcdatamodeld in Sources */,
+				547B637113D2801A0012DBFE /* CheersAppDelegate_iPhone.m in Sources */,
+				547B637813D2801A0012DBFE /* CheersAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547B637C13D2801A0012DBFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547B639213D2801B0012DBFE /* CheersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		547B638713D2801A0012DBFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 547B635213D2801A0012DBFE /* Cheers */;
+			targetProxy = 547B638613D2801A0012DBFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		547B636213D2801A0012DBFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547B636313D2801A0012DBFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		547B637213D2801A0012DBFE /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547B637313D2801A0012DBFE /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		547B637913D2801A0012DBFE /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547B637A13D2801A0012DBFE /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		547B638B13D2801A0012DBFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547B638C13D2801A0012DBFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		547B639313D2801B0012DBFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		547B639413D2801B0012DBFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		547B639613D2801B0012DBFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cheers/Cheers-Prefix.pch";
+				INFOPLIST_FILE = "Cheers/Cheers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		547B639713D2801B0012DBFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cheers/Cheers-Prefix.pch";
+				INFOPLIST_FILE = "Cheers/Cheers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		547B639913D2801B0012DBFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cheers.app/Cheers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheersTests/CheersTests-Prefix.pch";
+				INFOPLIST_FILE = "CheersTests/CheersTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		547B639A13D2801B0012DBFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cheers.app/Cheers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheersTests/CheersTests-Prefix.pch";
+				INFOPLIST_FILE = "CheersTests/CheersTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		547B634D13D2801A0012DBFE /* Build configuration list for PBXProject "Cheers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547B639313D2801B0012DBFE /* Debug */,
+				547B639413D2801B0012DBFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547B639513D2801B0012DBFE /* Build configuration list for PBXNativeTarget "Cheers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547B639613D2801B0012DBFE /* Debug */,
+				547B639713D2801B0012DBFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		547B639813D2801B0012DBFE /* Build configuration list for PBXNativeTarget "CheersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547B639913D2801B0012DBFE /* Debug */,
+				547B639A13D2801B0012DBFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		547B636B13D2801A0012DBFE /* Cheers.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				547B636C13D2801A0012DBFE /* Cheers.xcdatamodel */,
+			);
+			currentVersion = 547B636C13D2801A0012DBFE /* Cheers.xcdatamodel */;
+			path = Cheers.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 547B634A13D2801A0012DBFE /* Project object */;
+}
